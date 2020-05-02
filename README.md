@@ -66,3 +66,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Flask
+create a virtual env and add flask
+goto api folder and start the flask
+cd api && flask run
+
+### DB Configuration
+add your database url in api/api.py file
