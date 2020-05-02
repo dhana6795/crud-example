@@ -7,7 +7,7 @@ from sqlalchemy import create_engine
 import json
 
 app = Flask(__name__)
-engine = create_engine('firebird+fdb://SYSDBA:masterkey@localhost:3050//var/lib/firebird/2.5/data/Test.gdb')
+engine = create_engine('<db url>')
 engine.connect()
 session = engine
 @app.route('/get')
